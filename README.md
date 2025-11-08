@@ -6,7 +6,7 @@ This project focuses on **detecting Advanced Persistent Threat (APT)** activitie
 ## Feature Extraction with CICFlowMeter
 We used **CICFlowMeter** to extract statistical features from raw packet capture files (`.pcap`).
 
-- **Data source:[Stratosphere Laboratory datasets ](https://www.stratosphereips.org/datasets-malware) 
+- **Data source: [Stratosphere Laboratory datasets ](https://www.stratosphereips.org/datasets-malware) 
 - **Tool:** [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)
 
 You can see some samples about dataset in "sample" folder.
@@ -17,4 +17,5 @@ The following models are implemented:
 - ELModel (Ensemble Learning Model): combines of LSTM and Switch Transformer.
 
 ## To training:
-Run: python main.py
+Run: `python main.py`
+
