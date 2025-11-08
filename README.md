@@ -1,7 +1,6 @@
 ﻿# Ensemble learning model for APT attack detection in network
 ## Overview
 This project focuses on **detecting Advanced Persistent Threat (APT)** activities in network traffic by **extracting flow-based features** and training deep learning models for classification task.
----
 
 ## Feature Extraction with CICFlowMeter
 We used **CICFlowMeter** to extract statistical features from raw packet capture files (`.pcap`).
@@ -18,6 +17,7 @@ The following models are implemented:
 
 ## To train and evaluate:
 Run: `python main.py`
+
 
 
 
