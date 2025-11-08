@@ -9,7 +9,7 @@ We used **CICFlowMeter** to extract statistical features from raw packet capture
 - **Data source**: [Stratosphere Laboratory datasets ](https://www.stratosphereips.org/datasets-malware) 
 - **Tool:** [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)
 
-You can see some samples about dataset in "sample" folder.
+You can see some samples about dataset in "sample" folder. There are about 1000 sample.
 
 ## Model Overview
 The following models are implemented:
@@ -18,4 +18,5 @@ The following models are implemented:
 
 ## To training:
 Run: `python main.py`
+
 
