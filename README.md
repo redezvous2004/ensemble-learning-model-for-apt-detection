@@ -9,14 +9,15 @@ We used **CICFlowMeter** to extract statistical features from raw packet capture
 - **Data source**: [Stratosphere Laboratory datasets ](https://www.stratosphereips.org/datasets-malware) 
 - **Tool:** [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)
 
-You can see some samples about dataset in "sample" folder. There are about 1000 sample.
+You can see some samples about dataset in "sample" folder. There are about 1000 samples.
 
 ## Model Overview
 The following models are implemented:
 - GAN (Generative Adversarial Network): for generating synthetic network flow data (unbalanced dataset).
 - ELModel (Ensemble Learning Model): combines of LSTM and Switch Transformer.
 
-## To training:
+## To train and evaluate:
 Run: `python main.py`
+
 
 
